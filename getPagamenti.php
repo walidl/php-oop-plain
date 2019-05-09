@@ -21,6 +21,8 @@
     }
   }
 
+  // Chiamata SQL --------------------
+
   $servername = "localhost";
   $username = "root";
   $password = "taichow";
@@ -79,7 +81,7 @@
 
   $conn->close();
 
-  // print arrays
+  // Print Arrays ----------------------------
 
   function printArrays($title,$array){
 
